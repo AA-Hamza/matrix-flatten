@@ -1,0 +1,7 @@
+project('Flattened Vector', 'cpp')
+demoTest = executable('demoTest', 'test.cpp')
+test('Demo Test 10',  demoTest, args: ['10'])
+test('Demo Test 50',  demoTest, args: ['50'])
+test('Demo Test 100', demoTest, args: ['100'])
+test('Demo Test 500', demoTest, args: ['500'])
+test('Demo Test 1000', demoTest, args: ['1000'])
